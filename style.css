@@ -1,0 +1,137 @@
+#nume 
+{
+color:#9966ff;
+border: 5px solid black;
+text-align: left;
+background-color: #ffcc99;
+font-style: italic;
+font-weight: bold; 
+}
+#email
+{ 
+text-align:left;
+}
+#retea
+{ 
+border: 2px solid #ff0000;
+background-color:#99ccff;
+}
+#titlu
+{ 
+font-weight: bolder;
+color: #0000cc;
+text-align:left;
+text-decoration-line:underline;
+}
+#titlu2
+{
+font-weight: bolder;
+color:#0000cc; 
+text-align:left;
+text-decoration-line:underline;
+}
+#titlu3
+{ 
+font-weight: bolder;
+color: #0000cc;
+text-align:left;
+text-decoration-line:underline;
+}
+#titlu5
+{
+	font-weight: bolder;
+	color: #0000cc;
+	text-align:left;
+	text-decoration-line:underline;
+}
+#internet
+{ 
+width:500px;
+height: 400px;
+background-color: #6699ff;
+margin-left:auto;
+margin-right:auto;
+width: 50%;
+}
+table, td, th
+{ 
+border: 3px solid #cc99ff;
+margin-left:0px;
+border-collapse:separate;
+margin-right:auto ;
+text-align:left;
+}
+
+
+
+
+body
+{ 
+font-family: Verdana, sans-serif;
+}
+.slideshow-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 2rem;
+    justify-content: space-around;
+    max-width: 600px;
+    position: relative;
+    margin: auto;
+}
+
+.mySlides {
+  display: none;
+}
+
+.mySlides.active-slide {
+    display: block;
+}
+
+.slideImage {
+    width: 500px;
+    height: 300px;
+}
+
+.prev, .next {
+    cursor: pointer;
+  width: auto;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 3s;
+}
+
+@keyframes fade {
+  from {opacity: .1}
+  to {opacity: 1}
+}
+
